@@ -1,0 +1,49 @@
+.cuadrado{
+    display: grid;
+    height: 700px;
+    grid-template-columns: 90px 20px 90px 90px 20px;
+    grid-template-rows: 40px 40px 40px 40px 40px;
+    align-content: center;
+
+}
+.cuadrado div{
+    text-align: center;
+    color:black;
+    border : 1px solid black;
+    margin: 2px;
+
+}
+
+.uno{
+ grid-column: 1 / 4;
+ background-color: lightpink;
+}
+.dos{
+    grid-column: 4 / 5;
+    background-color: lightskyblue;
+}
+.tres{
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    background-color: mediumaquamarine;
+}
+.cuatro{
+    grid-column: 3 / 5;
+    background-color: lightyellow;
+}
+.cinco{
+    grid-column: 3 / 5;
+    background-color: mediumpurple;
+}
+.seis{
+    grid-column: 1 / 2;
+    background-color: orchid;
+}
+.siete{
+    grid-column: 2 / 4;
+    background-color: silver;
+}
+.ocho{
+    grid-column: 4 / 5;
+    background-color: gold;
+}
